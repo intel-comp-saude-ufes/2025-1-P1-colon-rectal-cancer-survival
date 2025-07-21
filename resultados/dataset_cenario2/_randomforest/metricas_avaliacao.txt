@@ -1,0 +1,17 @@
+Hiperparâmetros ótimos:
+{'bootstrap': True, 'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 200}
+
+Métricas - Treinamento:
+Acurácia:  0.7907
+F1-score:  0.7821
+Recall:    0.7781
+Precision: 0.7939
+
+Métricas - Teste:
+Acurácia:  0.7669
+F1-score:  0.7572
+Recall:    0.7537
+Precision: 0.7688
+
+
+Médias de Acurácia para melhor fold: [np.float64(0.7783479556364841), np.float64(0.7708988578049992), np.float64(0.7639463664956133)]

@@ -1,0 +1,17 @@
+Hiperparâmetros ótimos:
+{'mlp__activation': 'relu', 'mlp__alpha': 0.0001, 'mlp__hidden_layer_sizes': (100,), 'mlp__learning_rate': 'constant', 'mlp__learning_rate_init': 0.001, 'mlp__solver': 'adam'}
+
+Métricas - Treinamento:
+Acurácia:  0.6229
+F1-score:  0.4619
+Recall:    0.4771
+Precision: 0.5747
+
+Métricas - Teste:
+Acurácia:  0.6071
+F1-score:  0.4445
+Recall:    0.4621
+Precision: 0.5162
+
+
+Médias de Acurácia para melhor fold: [np.float64(0.6019717765319931), np.float64(0.6058380050260971), np.float64(0.6013918422578775)]

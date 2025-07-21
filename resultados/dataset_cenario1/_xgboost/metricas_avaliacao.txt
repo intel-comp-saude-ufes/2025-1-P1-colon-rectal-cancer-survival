@@ -1,0 +1,17 @@
+Hiperparâmetros ótimos:
+{'eval_metric': 'logloss', 'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 500, 'objective': 'binary:logistic'}
+
+Métricas - Treinamento:
+Acurácia:  0.8450
+F1-score:  0.6865
+Recall:    0.6559
+Precision: 0.7756
+
+Métricas - Teste:
+Acurácia:  0.8525
+F1-score:  0.7052
+Recall:    0.6722
+Precision: 0.7932
+
+
+Médias de Acurácia para melhor fold: [np.float64(0.8439933259176863), np.float64(0.8423248053392659), np.float64(0.8452447163515017)]
